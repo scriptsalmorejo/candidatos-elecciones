@@ -1,0 +1,47 @@
+---
+import Base from '../layouts/Base.astro';
+import { partidos, temas, todasLasPropuestas } from '../lib/data';
+const datos = {
+  partidos: partidos.map((p) => ({ id: p.id, nombre: p.nombre, color: p.color })),
+  temas,
+  propuestas: todasLasPropuestas(),
+};
+const json = JSON.stringify(datos).replace(/</g, '\\u003c');
+---
+<Base title="Buscar">
+  <h1 class="text-3xl font-bold">Buscar propuestas</h1>
+  <form id="f" class="mt-6 grid gap-4 md:grid-cols-[1fr_16rem_16rem]" role="search">
+    <div><label for="q" class="mb-1 block font-semibold">Texto</label>
+      <input id="q" type="search" class="w-full rounded border border-line bg-surface px-3 py-2" placeholder="p. ej. alquiler" /></div>
+    <div><label for="tema" class="mb-1 block font-semibold">Tema</label>
+      <select id="tema" class="w-full rounded border border-line bg-surface px-3 py-2"><option value="">Todos</option>{temas.map((t) => <option value={t.id}>{t.nombre}</option>)}</select></div>
+    <div><label for="part" class="mb-1 block font-semibold">Partido</label>
+      <select id="part" class="w-full rounded border border-line bg-surface px-3 py-2"><option value="">Todos</option>{partidos.map((p) => <option value={p.id}>{p.nombre}</option>)}</select></div>
+  </form>
+  <p id="n" class="mt-4 text-sm text-muted" role="status"></p>
+  <ul id="out" class="mt-4 space-y-3"></ul>
+  <script type="application/json" id="datos" set:html={json}></script>
+  <script is:inline>
+    const D = JSON.parse(document.getElementById('datos').textContent);
+    const $ = (id) => document.getElementById(id);
+    const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+    const el = (t, c, txt) => { const e = document.createElement(t); if (c) e.className = c; if (txt) e.textContent = txt; return e; };
+    const tn = Object.fromEntries(D.temas.map((t) => [t.id, t.nombre]));
+    function render() {
+      const q = norm($('q').value.trim()), t = $('tema').value, p = $('part').value;
+      const r = D.propuestas.filter((x) => (!t || x.tema === t) && (!p || x.partido === p) &&
+        (!q || norm(x.resumen + ' ' + (x.cita || '')).includes(q)));
+      $('n').textContent = D.propuestas.length ? r.length + ' resultado(s)' : 'Aún no hay propuestas cargadas.';
+      $('out').replaceChildren(...r.map((x) => {
+        const pa = D.partidos.find((y) => y.id === x.partido);
+        const li = el('li', 'rounded-lg border border-line bg-surface p-4');
+        li.style.borderLeft = `6px solid ${pa.color}`;
+        li.append(el('p', 'text-sm text-muted', pa.nombre + ' · ' + tn[x.tema]), el('p', 'mt-1', x.resumen));
+        const a = el('a', 'mt-2 inline-block text-xs underline text-muted', 'Fuente: ' + x.fuente.titulo);
+        a.href = x.fuente.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; li.append(a);
+        return li;
+      }));
+    }
+    $('f').addEventListener('input', render); $('f').addEventListener('submit', (e) => e.preventDefault()); render();
+  </script>
+</Base>

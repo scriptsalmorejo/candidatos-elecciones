@@ -1,0 +1,58 @@
+---
+import '../styles/global.css';
+import { url } from '../lib/data';
+interface Props { title: string; description?: string }
+const { title, description = 'Propuestas de los partidos para las elecciones generales de España, por temas y comparables.' } = Astro.props;
+const nav = [
+  { href: '', t: 'Partidos' },
+  { href: 'comparador/', t: 'Comparador' },
+  { href: 'buscar/', t: 'Buscar' },
+  { href: 'metodologia/', t: 'Metodología' },
+];
+---
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} · Propuestas 29N</title>
+    <meta name="description" content={description} />
+    <meta name="color-scheme" content="light dark" />
+    <script is:inline>
+      try {
+        const s = localStorage.getItem('tema');
+        const dark = s ? s === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.classList.toggle('dark', dark);
+      } catch {}
+    </script>
+  </head>
+  <body class="min-h-screen font-sans antialiased">
+    <a href="#main" class="skip">Saltar al contenido</a>
+    <header class="border-b border-line bg-surface">
+      <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-3">
+        <a href={url('')} class="text-lg font-bold">Propuestas 29N</a>
+        <nav aria-label="Principal" class="flex flex-wrap items-center gap-1 text-sm">
+          {nav.map((n) => (
+            <a href={url(n.href)} class="rounded px-3 py-2 hover:bg-bg">{n.t}</a>
+          ))}
+          <button id="toggle-tema" type="button" class="rounded border border-line px-3 py-2 hover:bg-bg" aria-label="Cambiar entre modo claro y oscuro">
+            <span class="dark:hidden">Modo oscuro</span><span class="hidden dark:inline">Modo claro</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="mx-auto max-w-6xl px-4 py-8"><slot /></main>
+    <footer class="border-t border-line px-4 py-6 text-sm text-muted">
+      <div class="mx-auto max-w-6xl">
+        Proyecto personal, sin afiliación a ningún partido ni recomendación de voto. Los resúmenes reproducen lo que dicen
+        los propios partidos; consulta siempre la fuente enlazada.
+      </div>
+    </footer>
+    <script is:inline>
+      document.getElementById('toggle-tema')?.addEventListener('click', () => {
+        const dark = document.documentElement.classList.toggle('dark');
+        try { localStorage.setItem('tema', dark ? 'dark' : 'light'); } catch {}
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "frente-amplio",
+    "nombre": "Frente Amplio",
+    "siglas": "FA",
+    "color": "#0f8b8d",
+    "candidato": { "nombre": "Ada Colau", "verificado": false, "fuenteUrl": null },
+    "programa": { "estado": "sin_verificar", "url": null },
+    "web": null,
+    "notas": "Coalición (IU, Más Madrid, Movimiento Sumar, Comuns). Color y datos pendientes de verificar."
+  },
+  {
+    "id": "podemos",
+    "nombre": "Podemos",
+    "siglas": "PODEMOS",
+    "color": "#7b3fa0",
+    "candidato": { "nombre": "Irene Montero", "verificado": false, "fuenteUrl": null },
+    "programa": { "estado": "sin_verificar", "url": null },
+    "web": "https://podemos.info/",
+    "notas": "Concurre en solitario salvo Canarias y C. Valenciana (según prensa, sin verificar). Montero encabeza la lista por Madrid."
+  },
+  {
+    "id": "pp",
+    "nombre": "Partido Popular",
+    "siglas": "PP",
+    "color": "#1f6fc5",
+    "candidato": { "nombre": "Alberto Núñez Feijóo", "verificado": false, "fuenteUrl": null },
+    "programa": { "estado": "sin_verificar", "url": null },
+    "web": "https://www.pp.es/",
+    "notas": ""
+  },
+  {
+    "id": "psoe",
+    "nombre": "Partido Socialista Obrero Español",
+    "siglas": "PSOE",
+    "color": "#c8202f",
+    "candidato": { "nombre": "Pedro Sánchez", "verificado": false, "fuenteUrl": null },
+    "programa": { "estado": "sin_verificar", "url": null },
+    "web": "https://www.psoe.es/",
+    "notas": ""
+  },
+  {
+    "id": "vox",
+    "nombre": "Vox",
+    "siglas": "VOX",
+    "color": "#4a9a2a",
+    "candidato": { "nombre": "Santiago Abascal", "verificado": false, "fuenteUrl": null },
+    "programa": { "estado": "sin_verificar", "url": null },
+    "web": "https://www.voxespana.es/",
+    "notas": ""
+  }
+]
