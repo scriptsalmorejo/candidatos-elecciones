@@ -7,6 +7,7 @@ export type Fuente = {
   titulo: string;
   tipo: 'programa' | 'nota_prensa' | 'boe' | 'congreso' | 'jec' | 'medio';
   pagina?: string;
+  origen?: string;
 };
 export type Propuesta = {
   id: string;

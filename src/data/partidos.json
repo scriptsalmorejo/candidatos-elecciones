@@ -4,8 +4,15 @@
     "nombre": "Frente Amplio",
     "siglas": "FA",
     "color": "#0f8b8d",
-    "candidato": { "nombre": "Ada Colau", "verificado": false, "fuenteUrl": null },
-    "programa": { "estado": "sin_verificar", "url": null },
+    "candidato": {
+      "nombre": "Ada Colau",
+      "verificado": false,
+      "fuenteUrl": null
+    },
+    "programa": {
+      "estado": "sin_verificar",
+      "url": null
+    },
     "web": null,
     "notas": "Coalición (IU, Más Madrid, Movimiento Sumar, Comuns). Color y datos pendientes de verificar."
   },
@@ -14,38 +21,66 @@
     "nombre": "Podemos",
     "siglas": "PODEMOS",
     "color": "#7b3fa0",
-    "candidato": { "nombre": "Irene Montero", "verificado": false, "fuenteUrl": null },
-    "programa": { "estado": "sin_verificar", "url": null },
+    "candidato": {
+      "nombre": "Irene Montero",
+      "verificado": false,
+      "fuenteUrl": null
+    },
+    "programa": {
+      "estado": "sin_verificar",
+      "url": null
+    },
     "web": "https://podemos.info/",
-    "notas": "Concurre en solitario salvo Canarias y C. Valenciana (según prensa, sin verificar). Montero encabeza la lista por Madrid."
+    "notas": "Según la recopilación consultada, Podemos ha presentado cinco ejes de su candidata (lema «Paz, casa y trabajo») y no tiene programa completo publicado. Propuestas sin verificar."
   },
   {
     "id": "pp",
     "nombre": "Partido Popular",
     "siglas": "PP",
     "color": "#1f6fc5",
-    "candidato": { "nombre": "Alberto Núñez Feijóo", "verificado": false, "fuenteUrl": null },
-    "programa": { "estado": "sin_verificar", "url": null },
+    "candidato": {
+      "nombre": "Alberto Núñez Feijóo",
+      "verificado": false,
+      "fuenteUrl": null
+    },
+    "programa": {
+      "estado": "sin_verificar",
+      "url": null
+    },
     "web": "https://www.pp.es/",
-    "notas": ""
+    "notas": "Según la recopilación consultada, el PP presentó su programa completo el 10-nov-2026 (82 páginas, 249 medidas). Enlace al documento original pendiente; las propuestas mostradas proceden de prensa y están sin verificar."
   },
   {
     "id": "psoe",
     "nombre": "Partido Socialista Obrero Español",
     "siglas": "PSOE",
     "color": "#c8202f",
-    "candidato": { "nombre": "Pedro Sánchez", "verificado": false, "fuenteUrl": null },
-    "programa": { "estado": "sin_verificar", "url": null },
+    "candidato": {
+      "nombre": "Pedro Sánchez",
+      "verificado": false,
+      "fuenteUrl": null
+    },
+    "programa": {
+      "estado": "sin_verificar",
+      "url": null
+    },
     "web": "https://www.psoe.es/",
-    "notas": ""
+    "notas": "Según la recopilación consultada, el PSOE no había publicado su programa a 10-nov-2026. Se recogen compromisos públicos, decretos del Gobierno y resoluciones del Congreso Federal de 2024; todo sin verificar."
   },
   {
     "id": "vox",
     "nombre": "Vox",
     "siglas": "VOX",
     "color": "#4a9a2a",
-    "candidato": { "nombre": "Santiago Abascal", "verificado": false, "fuenteUrl": null },
-    "programa": { "estado": "sin_verificar", "url": null },
+    "candidato": {
+      "nombre": "Santiago Abascal",
+      "verificado": false,
+      "fuenteUrl": null
+    },
+    "programa": {
+      "estado": "sin_verificar",
+      "url": null
+    },
     "web": "https://www.voxespana.es/",
     "notas": ""
   }

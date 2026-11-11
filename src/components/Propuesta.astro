@@ -10,6 +10,7 @@ const tipos: Record<string, string> = { programa: 'Programa electoral', nota_pre
     <a class="underline" href={p.fuente.url} rel="noopener noreferrer" target="_blank">
       {tipos[p.fuente.tipo]}: {p.fuente.titulo}{p.fuente.pagina ? `, p. ${p.fuente.pagina}` : ''}
     </a>
+    {p.fuente.origen && <span>Origen: {p.fuente.origen}</span>}
     <span>Consultado el {p.fechaConsulta}</span>
     {p.verificacion === 'sin_verificar' && <span class="rounded border border-line px-1.5 py-0.5">Sin verificar</span>}
   </p>

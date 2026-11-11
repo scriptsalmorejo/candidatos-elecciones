@@ -1,5 +1,162 @@
 {
   "partido": "psoe",
   "temasRevisados": [],
-  "propuestas": []
+  "propuestas": [
+    {
+      "id": "psoe-vivienda-01",
+      "tema": "vivienda",
+      "resumen": "Programa «TU CASA»: línea ICO de 10.000 millones en préstamos a coste cero de hasta 50.000 euros (hasta el 20 % del precio) para la primera vivienda.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "politicaelectoral.com, DatosClaros, Euronews, Demócrata, Artículo 14, eleccionesEspaña.com"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "psoe-vivienda-02",
+      "tema": "vivienda",
+      "resumen": "Decretos de vivienda reaprobados el 6 de octubre, pendientes de convalidación: prórroga de contratos hasta dos años, subida del alquiler limitada al 2 % en contratos vigentes, IVA del 10 % a pisos turísticos y suspensión de desahucios de familias vulnerables hasta 2030.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "politicaelectoral.com, DatosClaros, Euronews, Demócrata, Artículo 14, eleccionesEspaña.com"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "psoe-vivienda-03",
+      "tema": "vivienda",
+      "resumen": "Plantea una deducción en el IRPF para inquilinos con rentas de hasta 33.000 euros.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "politicaelectoral.com, DatosClaros, Euronews, Demócrata, Artículo 14, eleccionesEspaña.com"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "psoe-vivienda-04",
+      "tema": "vivienda",
+      "resumen": "Proposición de ley de 2025: impuesto de hasta el 100 % a la compra de vivienda por no residentes extracomunitarios.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "politicaelectoral.com, DatosClaros, Euronews, Demócrata, Artículo 14, eleccionesEspaña.com"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "psoe-pensiones-01",
+      "tema": "pensiones",
+      "resumen": "Propone revalorizar las pensiones con el IPC cuatro años más y cerrar la legislatura con 20.000 millones en el Fondo de Reserva (mitin de Zaragoza, 14 de octubre).",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "politicaelectoral.com, DatosClaros, Euronews, Demócrata, Artículo 14, eleccionesEspaña.com"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "psoe-pensiones-02",
+      "tema": "pensiones",
+      "resumen": "Propone reformar la Constitución para blindar la subida de las pensiones conforme al IPC (mitin de Gijón, 26 de octubre).",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "politicaelectoral.com, DatosClaros, Euronews, Demócrata, Artículo 14, eleccionesEspaña.com"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "psoe-economia-empleo-01",
+      "tema": "economia-empleo",
+      "resumen": "Resolución del Congreso Federal de 2024: reducir la jornada a una media de 36 horas semanales en 2030.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "politicaelectoral.com, DatosClaros, Euronews, Demócrata, Artículo 14, eleccionesEspaña.com"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "psoe-economia-empleo-02",
+      "tema": "economia-empleo",
+      "resumen": "Resolución del Congreso Federal de 2024: una ley para que las grandes empresas repartan beneficios con las plantillas.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "politicaelectoral.com, DatosClaros, Euronews, Demócrata, Artículo 14, eleccionesEspaña.com"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "psoe-impuestos-01",
+      "tema": "impuestos",
+      "resumen": "Resolución del Congreso Federal de 2024: tipo del 50 % en el IRPF para rentas superiores a 300.000 euros.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "politicaelectoral.com, DatosClaros, Euronews, Demócrata, Artículo 14, eleccionesEspaña.com"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "psoe-impuestos-02",
+      "tema": "impuestos",
+      "resumen": "Resolución del Congreso Federal de 2024: subir el impuesto de sociedades a empresas cuyos directivos cobren más de 40 veces el salario medio de la plantilla.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "politicaelectoral.com, DatosClaros, Euronews, Demócrata, Artículo 14, eleccionesEspaña.com"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "psoe-sanidad-01",
+      "tema": "sanidad",
+      "resumen": "Anuncio del 6 de noviembre: que el 85 % de los pacientes obtenga cita en Atención Primaria en menos de 48 horas, destinar al menos el 7 % del PIB, crear una Agencia Estatal de Salud Pública y una nueva ley del medicamento.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "politicaelectoral.com, DatosClaros, Euronews, Demócrata, Artículo 14, eleccionesEspaña.com"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "psoe-inmigracion-01",
+      "tema": "inmigracion",
+      "resumen": "Propone una Agencia Estatal de Movilidad Humana y una Estrategia de Movilidad Laboral (plan presentado el 30 de junio, con más de 500 millones el primer año).",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "politicaelectoral.com, DatosClaros, Euronews, Demócrata, Artículo 14, eleccionesEspaña.com"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    }
+  ]
 }

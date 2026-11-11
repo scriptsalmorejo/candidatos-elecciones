@@ -1,5 +1,305 @@
 {
   "partido": "pp",
   "temasRevisados": [],
-  "propuestas": []
+  "propuestas": [
+    {
+      "id": "pp-vivienda-01",
+      "tema": "vivienda",
+      "resumen": "Plantea construir un millón de viviendas en la legislatura, con una nueva Ley del Suelo y licencias en un máximo de 3 meses con silencio positivo.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-vivienda-02",
+      "tema": "vivienda",
+      "resumen": "Propone derogar la Ley de Vivienda, incluidas las zonas tensionadas y los índices de precios.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-vivienda-03",
+      "tema": "vivienda",
+      "resumen": "Propone bajar el IVA de la primera vivienda del 10 % al 4 % para menores de 40 años y un aval público de hasta el 20 % de la entrada.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-vivienda-04",
+      "tema": "vivienda",
+      "resumen": "Plantea el desalojo de ocupantes ilegales en 48 horas y ventajas fiscales para propietarios que renueven alquileres con subidas inferiores al IPC.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-impuestos-01",
+      "tema": "impuestos",
+      "resumen": "Propone actualizar la tarifa del IRPF por inflación y un IRPF cero para quien cobre el salario mínimo (SMI).",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-impuestos-02",
+      "tema": "impuestos",
+      "resumen": "Propone para jóvenes de 18 a 35 años una rebaja del IRPF del 100 %, 75 %, 50 % y 25 % en cada uno de los cuatro primeros años.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-impuestos-03",
+      "tema": "impuestos",
+      "resumen": "Propone un IVA del 0 % en alimentos básicos mientras persista la inflación y suprimir el impuesto del 7 % a la producción eléctrica.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-impuestos-04",
+      "tema": "impuestos",
+      "resumen": "Propone una deducción familiar única, reembolsable y mensual.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-educacion-01",
+      "tema": "educacion",
+      "resumen": "Plantea que la educación infantil de 0 a 3 años sea gratuita al final de la legislatura.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-economia-empleo-01",
+      "tema": "economia-empleo",
+      "resumen": "Para autónomos propone cuota cero el primer año, no declarar IVA por debajo de 85.000 euros de facturación y reducir las cargas administrativas un 25 % antes de 2029 (35 % en pymes).",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-economia-empleo-02",
+      "tema": "economia-empleo",
+      "resumen": "Plantea movilizar más de 300.000 millones de euros en 15 años en infraestructuras, con inversión privada.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-pensiones-01",
+      "tema": "pensiones",
+      "resumen": "Propone pensiones revalorizadas con el IPC y protegidas en el Pacto de Toledo.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-otros-01",
+      "tema": "otros",
+      "resumen": "Propone un Pacto de Estado por la Dependencia con aportación estatal del 50 % y una deducción del 40 % por cuidados profesionales a mayores dependientes.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-inmigracion-01",
+      "tema": "inmigracion",
+      "resumen": "Propone una autoridad única de inmigración, identificación en siete días, visados por puntos, cupos anuales y prohibir por ley las regularizaciones masivas.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-inmigracion-02",
+      "tema": "inmigracion",
+      "resumen": "Propone exigir español y conocimiento de la Constitución para renovar la residencia y la expulsión como regla para condenados por delitos graves o multirreincidencia.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-inmigracion-03",
+      "tema": "inmigracion",
+      "resumen": "Propone endurecer la nacionalidad y prohibir el burka y el niqab en espacios públicos.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-seguridad-justicia-01",
+      "tema": "seguridad-justicia",
+      "resumen": "Propone una multa mínima de 3.000 euros por vandalismo, ampliar la prisión permanente revisable y declarar a Policía y Guardia Civil profesiones de riesgo.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-seguridad-justicia-02",
+      "tema": "seguridad-justicia",
+      "resumen": "Propone derogar la Ley de Amnistía, crear una nueva Ley del Indulto y recuperar los delitos de sedición y de referéndum ilegal.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-seguridad-justicia-03",
+      "tema": "seguridad-justicia",
+      "resumen": "Plantea que los jueces elijan a los 12 vocales judiciales del CGPJ y un fiscal general con mandato de 5 años y cese automático si es procesado.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-otros-02",
+      "tema": "otros",
+      "resumen": "Propone nuevas elecciones si hay prórrogas presupuestarias consecutivas, una auditoría del gasto en 100 días y menos ministerios y altos cargos.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-sanidad-01",
+      "tema": "sanidad",
+      "resumen": "Propone 4.500 médicos más en Atención Primaria, un Plan de Salud Mental 2027-2037 y una ley de cuidados paliativos.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-educacion-02",
+      "tema": "educacion",
+      "resumen": "Propone sustituir la LOMLOE, una PAU común, garantizar la enseñanza en castellano y prohibir las redes sociales a menores de 14 años (con autorización paterna hasta los 16).",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pp-energia-clima-01",
+      "tema": "energia-clima",
+      "resumen": "Propone eliminar el calendario de cierre nuclear.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "The Objective (10-nov-2026), Demócrata (10-nov), Hoy Aragón (11-nov), Moncloa.com (19-oct)"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    }
+  ]
 }

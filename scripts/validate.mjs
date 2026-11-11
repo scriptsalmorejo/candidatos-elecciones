@@ -62,6 +62,7 @@ for (const f of files) {
     if (p.cita !== undefined && (typeof p.cita !== 'string' || p.cita.length > 300)) err(`${w}: cita inválida o > 300 caracteres`);
     if (!p.fuente || !/^https:\/\//.test(p.fuente.url ?? '')) err(`${w}: falta fuente.url https`);
     if (!p.fuente?.titulo) err(`${w}: falta fuente.titulo`);
+    if (p.fuente?.origen !== undefined && typeof p.fuente.origen !== 'string') err(`${w}: fuente.origen debe ser texto`);
     if (!TIPOS.has(p.fuente?.tipo)) err(`${w}: fuente.tipo inválido`);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(p.fechaConsulta ?? '') || isNaN(Date.parse(p.fechaConsulta))) err(`${w}: fechaConsulta ausente o no es AAAA-MM-DD`);
     else if (p.fechaConsulta > today) err(`${w}: fechaConsulta en el futuro`);
