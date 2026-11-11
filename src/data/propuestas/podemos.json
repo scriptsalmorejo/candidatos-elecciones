@@ -1,0 +1,111 @@
+{
+  "partido": "podemos",
+  "temasRevisados": [],
+  "propuestas": [
+    {
+      "id": "pod-vivienda-01",
+      "tema": "vivienda",
+      "resumen": "Propone prohibir comprar vivienda con fines especulativos, permitiéndolo solo como residencia habitual.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "Libre Mercado, Demócrata, Artículo 14, Público, Diario de Farma"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pod-vivienda-02",
+      "tema": "vivienda",
+      "resumen": "Propone bajar los alquileres por ley (Montero habló de una media del 40 % el 27 de octubre) y prohibir desahucios sin alternativa habitacional.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "Libre Mercado, Demócrata, Artículo 14, Público, Diario de Farma"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pod-vivienda-03",
+      "tema": "vivienda",
+      "resumen": "Propone expropiar viviendas de fondos de inversión para destinarlas a alquiler social a precios «justos».",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "Libre Mercado, Demócrata, Artículo 14, Público, Diario de Farma"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pod-economia-empleo-01",
+      "tema": "economia-empleo",
+      "resumen": "Propone un salario mínimo de 1.800 euros (hoy 1.221) y una jornada de 30 horas semanales.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "Libre Mercado, Demócrata, Artículo 14, Público, Diario de Farma"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pod-economia-empleo-02",
+      "tema": "economia-empleo",
+      "resumen": "Propone bajar el coste de la vida, regular precios y nacionalizar o expropiar empresas estratégicas, sobre todo de energía y alimentación (Montero, 27 de octubre).",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "Libre Mercado, Demócrata, Artículo 14, Público, Diario de Farma"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pod-pensiones-01",
+      "tema": "pensiones",
+      "resumen": "Propone reducir la edad legal de jubilación a 63 años, subir las pensiones mínimas y no contributivas (sin importes) y rechazar la «mochila austriaca» y la privatización de pensiones.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "Libre Mercado, Demócrata, Artículo 14, Público, Diario de Farma"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pod-exterior-defensa-01",
+      "tema": "exterior-defensa",
+      "resumen": "Se opone a que el aumento del gasto militar salga de sanidad y pensiones.",
+      "cita": "Ni un euro más para armas",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "Libre Mercado, Demócrata, Artículo 14, Público, Diario de Farma"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "pod-otros-01",
+      "tema": "otros",
+      "resumen": "Propone reforzar la sanidad y la educación públicas, la conciliación, los cuidados, la lucha contra las violencias machistas y contra el cambio climático.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_PP_PSOE_Podemos_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de PP, PSOE y Podemos (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "Libre Mercado, Demócrata, Artículo 14, Público, Diario de Farma"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+---
+import Base from '../../layouts/Base.astro';
+import Logo from '../../components/Logo.astro';
+import PropuestaCard from '../../components/Propuesta.astro';
+import EstadoVacio from '../../components/EstadoVacio.astro';
+import { partidos, temas, estadoTema, url } from '../../lib/data';
+export function getStaticPaths() { return partidos.map((p) => ({ params: { id: p.id }, props: { p } })); }
+const { p } = Astro.props;
+---
+<Base title={p.nombre}>
+  <div class="flex items-center gap-4">
+    <Logo siglas={p.siglas} color={p.color} size={72} />
+    <div>
+      <h1 class="text-3xl font-bold">{p.nombre}</h1>
+      <p class="text-muted">Candidato/a: {p.candidato.nombre}{!p.candidato.verificado && ' (sin verificar)'}</p>
+      <p class="mt-1 text-sm">
+        {p.programa.url ? <a class="underline" href={p.programa.url} rel="noopener noreferrer" target="_blank">Programa completo</a> : <span class="text-muted">Programa: enlace pendiente</span>}
+        {p.web && <> · <a class="underline" href={p.web} rel="noopener noreferrer" target="_blank">Web oficial</a></>}
+      </p>
+    </div>
+  </div>
+  {p.notas && <p class="mt-4 rounded border border-line bg-surface p-3 text-sm text-muted">{p.notas}</p>}
+  <nav aria-label="Temas" class="mt-6 flex flex-wrap gap-2 text-sm">
+    {temas.map((t) => <a class="rounded-full border border-line px-3 py-1 hover:bg-surface" href={`#${t.id}`}>{t.nombre}</a>)}
+  </nav>
+  <div class="mt-8 space-y-10">
+    {temas.map((t) => {
+      const e = estadoTema(p.id, t.id);
+      return (
+        <section id={t.id} aria-labelledby={`h-${t.id}`}>
+          <h2 id={`h-${t.id}`} class="mb-3 border-l-4 pl-3 text-xl font-semibold" style={`border-color:${p.color}`}>{t.nombre}</h2>
+          {e.tipo === 'propuestas'
+            ? <div class="space-y-3">{e.propuestas.map((x) => <PropuestaCard p={x} />)}</div>
+            : <EstadoVacio tipo={e.tipo} />}
+        </section>
+      );
+    })}
+  </div>
+  <p class="mt-10"><a class="underline" href={url('')}>← Todos los partidos</a></p>
+</Base>

@@ -1,0 +1,76 @@
+---
+import Base from '../layouts/Base.astro';
+import { partidos, temas, estadoTema } from '../lib/data';
+const datos = {
+  partidos: partidos.map((p) => ({ id: p.id, nombre: p.nombre, siglas: p.siglas, color: p.color, candidato: p.candidato.nombre })),
+  datos: Object.fromEntries(partidos.map((p) => [p.id, Object.fromEntries(temas.map((t) => [t.id, estadoTema(p.id, t.id)]))])),
+};
+const json = JSON.stringify(datos).replace(/</g, '\\u003c');
+---
+<Base title="Comparador">
+  <h1 class="text-3xl font-bold">Comparador</h1>
+  <p class="mt-2 text-muted">Elige entre 2 y 4 partidos y un tema.</p>
+  <form id="f" class="mt-6 grid gap-6 md:grid-cols-[1fr_auto]">
+    <fieldset>
+      <legend class="mb-2 font-semibold">Partidos (2 a 4)</legend>
+      <div class="flex flex-wrap gap-3">
+        {partidos.map((p) => (
+          <label class="flex cursor-pointer items-center gap-2 rounded border border-line bg-surface px-3 py-2">
+            <input type="checkbox" name="p" value={p.id} /> {p.nombre}
+          </label>
+        ))}
+      </div>
+    </fieldset>
+    <div>
+      <label for="tema" class="mb-2 block font-semibold">Tema</label>
+      <select id="tema" class="w-full rounded border border-line bg-surface px-3 py-2">
+        {temas.map((t) => <option value={t.id}>{t.nombre}</option>)}
+      </select>
+    </div>
+  </form>
+  <p id="aviso" class="mt-4 text-sm text-muted" role="status"></p>
+  <div id="out" class="mt-6 grid gap-4"></div>
+  <script type="application/json" id="datos" set:html={json}></script>
+  <script is:inline>
+    const D = JSON.parse(document.getElementById('datos').textContent);
+    const f = document.getElementById('f'), sel = document.getElementById('tema');
+    const out = document.getElementById('out'), aviso = document.getElementById('aviso');
+    const tipos = { programa: 'Programa electoral', nota_prensa: 'Nota de prensa oficial', boe: 'BOE', congreso: 'Congreso', jec: 'Junta Electoral Central', medio: 'Medio (apoyo)' };
+    const el = (t, c, txt) => { const e = document.createElement(t); if (c) e.className = c; if (txt) e.textContent = txt; return e; };
+    const q = new URLSearchParams(location.search);
+    (q.get('p') || '').split(',').forEach((id) => { const c = f.querySelector(`input[value="${id}"]`); if (c) c.checked = true; });
+    if (q.get('tema')) sel.value = q.get('tema');
+
+    function render() {
+      const ids = [...f.querySelectorAll('input:checked')].map((i) => i.value);
+      f.querySelectorAll('input').forEach((i) => { i.disabled = !i.checked && ids.length >= 4; });
+      const u = new URLSearchParams({ p: ids.join(','), tema: sel.value });
+      history.replaceState(null, '', '?' + u);
+      out.replaceChildren();
+      if (ids.length < 2) { aviso.textContent = 'Selecciona al menos 2 partidos.'; return; }
+      aviso.textContent = '';
+      out.style.gridTemplateColumns = `repeat(${ids.length}, minmax(0, 1fr))`;
+      out.className = 'mt-6 grid gap-4 max-md:!grid-cols-1';
+      ids.forEach((id) => {
+        const p = D.partidos.find((x) => x.id === id), e = D.datos[id][sel.value];
+        const col = el('section', 'rounded-lg border border-line bg-surface p-4');
+        col.style.borderTop = `6px solid ${p.color}`;
+        col.append(el('h2', 'font-semibold', p.nombre), el('p', 'mb-3 text-sm text-muted', p.candidato));
+        if (e.tipo === 'propuestas') {
+          e.propuestas.forEach((x) => {
+            const a = el('div', 'mb-4 border-t border-line pt-3 first:border-0 first:pt-0');
+            a.append(el('p', '', x.resumen));
+            if (x.cita) a.append(el('blockquote', 'mt-2 border-l-4 border-line pl-2 text-sm italic text-muted', '«' + x.cita + '»'));
+            const l = el('a', 'mt-2 inline-block text-xs underline text-muted', tipos[x.fuente.tipo] + ': ' + x.fuente.titulo);
+            l.href = x.fuente.url; l.target = '_blank'; l.rel = 'noopener noreferrer';
+            a.append(l);
+            if (x.verificacion === 'sin_verificar') a.append(el('span', 'ml-2 text-xs text-muted', '(sin verificar)'));
+            col.append(a);
+          });
+        } else col.append(el('p', 'rounded border border-dashed border-line p-3 text-muted', e.tipo === 'no_consta' ? 'No consta en su programa' : 'Pendiente de revisar'));
+        out.append(col);
+      });
+    }
+    f.addEventListener('change', render); sel.addEventListener('change', render); render();
+  </script>
+</Base>

@@ -1,0 +1,6 @@
+---
+const { tipo } = Astro.props as { tipo: 'no_consta' | 'pendiente' };
+---
+{tipo === 'no_consta'
+  ? <p class="rounded-lg border border-dashed border-line p-4 text-muted">No consta en su programa</p>
+  : <p class="rounded-lg border border-dashed border-line p-4 text-muted">Pendiente de revisar (todavía no se han cargado datos de este tema)</p>}

@@ -1,0 +1,14 @@
+[
+  { "id": "economia-empleo", "nombre": "Economía y empleo" },
+  { "id": "vivienda", "nombre": "Vivienda" },
+  { "id": "impuestos", "nombre": "Impuestos" },
+  { "id": "sanidad", "nombre": "Sanidad" },
+  { "id": "educacion", "nombre": "Educación" },
+  { "id": "pensiones", "nombre": "Pensiones" },
+  { "id": "energia-clima", "nombre": "Energía y clima" },
+  { "id": "inmigracion", "nombre": "Inmigración" },
+  { "id": "seguridad-justicia", "nombre": "Seguridad y justicia" },
+  { "id": "politica-territorial", "nombre": "Política territorial" },
+  { "id": "exterior-defensa", "nombre": "Política exterior y defensa" },
+  { "id": "otros", "nombre": "Otros temas destacados" }
+]

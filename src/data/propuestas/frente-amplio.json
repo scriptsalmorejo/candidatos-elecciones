@@ -1,0 +1,149 @@
+{
+  "partido": "frente-amplio",
+  "temasRevisados": [],
+  "propuestas": [
+    {
+      "id": "fa-vivienda-01",
+      "tema": "vivienda",
+      "resumen": "Propone una ley de expropiación de viviendas a propietarios corporativos (anunciada el 6 de noviembre), en tres fases: entidades con más de 1.000 viviendas, luego más de 700 y después empresas con más de 50 inmuebles. Se cifra en 100.000 viviendas.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "Libre Mercado (10-nov-2026), Artículo 14 (8 y 10-nov), El Constitucional, IBTimes"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "fa-vivienda-02",
+      "tema": "vivienda",
+      "resumen": "Incluiría en el parque público los suelos y fincas urbanas de la Sareb.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "Libre Mercado (10-nov-2026), Artículo 14 (8 y 10-nov), El Constitucional, IBTimes"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "fa-vivienda-03",
+      "tema": "vivienda",
+      "resumen": "Propone un impuesto contra la acumulación de vivienda del 10 % del valor, para empresas desde la primera vivienda y personas físicas desde la cuarta si el valor conjunto supera 800.000 euros. Quedaría exento si se alquila de forma asequible y estable.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "Libre Mercado (10-nov-2026), Artículo 14 (8 y 10-nov), El Constitucional, IBTimes"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "fa-vivienda-04",
+      "tema": "vivienda",
+      "resumen": "Según el partido, las viviendas alquiladas bajarían de media un 31 % (de 1.000 a 690 euros al mes).",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "Libre Mercado (10-nov-2026), Artículo 14 (8 y 10-nov), El Constitucional, IBTimes"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "fa-impuestos-01",
+      "tema": "impuestos",
+      "resumen": "Propone un impuesto anual sobre el patrimonio neto del 2 % para patrimonios de más de 1 millón de euros y del 3 % desde 50 millones. Según el partido, afectaría a unas 231.000 personas.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "Libre Mercado (10-nov-2026), Artículo 14 (8 y 10-nov), El Constitucional, IBTimes"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "fa-impuestos-02",
+      "tema": "impuestos",
+      "resumen": "Propone subir el tipo efectivo de grandes empresas y banca, que el partido cifra entre el 7 % y el 9 % frente al 19-20 % de las pymes.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "Libre Mercado (10-nov-2026), Artículo 14 (8 y 10-nov), El Constitucional, IBTimes"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "fa-impuestos-03",
+      "tema": "impuestos",
+      "resumen": "Según sus estimaciones, los nuevos gravámenes recaudarían 10.000 millones de euros adicionales al año.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "Libre Mercado (10-nov-2026), Artículo 14 (8 y 10-nov), El Constitucional, IBTimes"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "fa-pensiones-01",
+      "tema": "pensiones",
+      "resumen": "Propone una jubilación efectiva a los 65 años, financiada con la eliminación progresiva del tope máximo de cotización y aportaciones de empresas muy automatizadas.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "Libre Mercado (10-nov-2026), Artículo 14 (8 y 10-nov), El Constitucional, IBTimes"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "fa-pensiones-02",
+      "tema": "pensiones",
+      "resumen": "Propone que ninguna pensión quede por debajo del salario mínimo (1.221 euros), con un coste estimado de unos 20.000 millones al año.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "Libre Mercado (10-nov-2026), Artículo 14 (8 y 10-nov), El Constitucional, IBTimes"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "fa-economia-empleo-01",
+      "tema": "economia-empleo",
+      "resumen": "Reivindica la reforma laboral y las subidas del salario mínimo de los gobiernos de coalición.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "Libre Mercado (10-nov-2026), Artículo 14 (8 y 10-nov), El Constitucional, IBTimes"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "fa-otros-01",
+      "tema": "otros",
+      "resumen": "Defiende los servicios públicos y menciona un «sistema ferroviario digno», sin medidas concretas.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "Libre Mercado (10-nov-2026), Artículo 14 (8 y 10-nov), El Constitucional, IBTimes"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    }
+  ]
+}

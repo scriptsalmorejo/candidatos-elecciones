@@ -1,0 +1,87 @@
+[
+  {
+    "id": "frente-amplio",
+    "nombre": "Frente Amplio",
+    "siglas": "FA",
+    "color": "#0f8b8d",
+    "candidato": {
+      "nombre": "Ada Colau",
+      "verificado": false,
+      "fuenteUrl": null
+    },
+    "programa": {
+      "estado": "sin_verificar",
+      "url": null
+    },
+    "web": null,
+    "notas": "Según la recopilación consultada, el Frente Amplio no había publicado un programa completo a 11-nov-2026 (lema «Un voto como una casa»; presentación el 6-nov). Las cifras son estimaciones del propio partido, sin memoria económica publicada. Todo sin verificar."
+  },
+  {
+    "id": "podemos",
+    "nombre": "Podemos",
+    "siglas": "PODEMOS",
+    "color": "#7b3fa0",
+    "candidato": {
+      "nombre": "Irene Montero",
+      "verificado": false,
+      "fuenteUrl": null
+    },
+    "programa": {
+      "estado": "sin_verificar",
+      "url": null
+    },
+    "web": "https://podemos.info/",
+    "notas": "Según la recopilación consultada, Podemos ha presentado cinco ejes de su candidata (lema «Paz, casa y trabajo») y no tiene programa completo publicado. Propuestas sin verificar."
+  },
+  {
+    "id": "pp",
+    "nombre": "Partido Popular",
+    "siglas": "PP",
+    "color": "#1f6fc5",
+    "candidato": {
+      "nombre": "Alberto Núñez Feijóo",
+      "verificado": false,
+      "fuenteUrl": null
+    },
+    "programa": {
+      "estado": "sin_verificar",
+      "url": null
+    },
+    "web": "https://www.pp.es/",
+    "notas": "Según la recopilación consultada, el PP presentó su programa completo el 10-nov-2026 (82 páginas, 249 medidas). Enlace al documento original pendiente; las propuestas mostradas proceden de prensa y están sin verificar."
+  },
+  {
+    "id": "psoe",
+    "nombre": "Partido Socialista Obrero Español",
+    "siglas": "PSOE",
+    "color": "#c8202f",
+    "candidato": {
+      "nombre": "Pedro Sánchez",
+      "verificado": false,
+      "fuenteUrl": null
+    },
+    "programa": {
+      "estado": "sin_verificar",
+      "url": null
+    },
+    "web": "https://www.psoe.es/",
+    "notas": "Según la recopilación consultada, el PSOE no había publicado su programa a 10-nov-2026. Se recogen compromisos públicos, decretos del Gobierno y resoluciones del Congreso Federal de 2024; todo sin verificar."
+  },
+  {
+    "id": "vox",
+    "nombre": "Vox",
+    "siglas": "VOX",
+    "color": "#4a9a2a",
+    "candidato": {
+      "nombre": "Santiago Abascal",
+      "verificado": false,
+      "fuenteUrl": null
+    },
+    "programa": {
+      "estado": "sin_verificar",
+      "url": null
+    },
+    "web": "https://www.voxespana.es/",
+    "notas": "Según la recopilación consultada, Vox no había publicado un programa electoral completo a 11-nov-2026; se recogen propuestas anunciadas en actos, entrevistas y documentos previos (incluida una lista de diez propuestas del 24-oct). Todo sin verificar."
+  }
+]

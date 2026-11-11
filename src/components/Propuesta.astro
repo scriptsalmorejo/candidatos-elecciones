@@ -1,0 +1,17 @@
+---
+import type { Propuesta } from '../lib/data';
+const { p } = Astro.props as { p: Propuesta };
+const tipos: Record<string, string> = { programa: 'Programa electoral', nota_prensa: 'Nota de prensa oficial', boe: 'BOE', congreso: 'Congreso', jec: 'Junta Electoral Central', medio: 'Medio (apoyo)' };
+---
+<article class="rounded-lg border border-line bg-surface p-4">
+  <p>{p.resumen}</p>
+  {p.cita && <blockquote class="mt-2 border-l-4 border-line pl-3 text-sm italic text-muted">«{p.cita}»</blockquote>}
+  <p class="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted">
+    <a class="underline" href={p.fuente.url} rel="noopener noreferrer" target="_blank">
+      {tipos[p.fuente.tipo]}: {p.fuente.titulo}{p.fuente.pagina ? `, p. ${p.fuente.pagina}` : ''}
+    </a>
+    {p.fuente.origen && <span>Origen: {p.fuente.origen}</span>}
+    <span>Consultado el {p.fechaConsulta}</span>
+    {p.verificacion === 'sin_verificar' && <span class="rounded border border-line px-1.5 py-0.5">Sin verificar</span>}
+  </p>
+</article>
