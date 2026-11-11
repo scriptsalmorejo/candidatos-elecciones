@@ -1,5 +1,188 @@
 {
   "partido": "vox",
   "temasRevisados": [],
-  "propuestas": []
+  "propuestas": [
+    {
+      "id": "vox-inmigracion-01",
+      "tema": "inmigracion",
+      "resumen": "Propone «prioridad nacional»: los españoles recibirían primero ayudas sociales, subvenciones al alquiler y plazas de guardería.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "El Debate («Las diez propuestas clave de Vox», 24-oct-2026), Demócrata (27-oct), voxespana.es (11-oct), Mundiario (6-oct), Telemadrid (nov-2026), DatosClaros"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "vox-inmigracion-02",
+      "tema": "inmigracion",
+      "resumen": "Plantea devolver a quienes entren ilegalmente, deportar a los extranjeros que delincan y aplicar la «remigración» a quienes vivan de ayudas sin contribuir, sin concretar criterios ni cifras.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "El Debate («Las diez propuestas clave de Vox», 24-oct-2026), Demócrata (27-oct), voxespana.es (11-oct), Mundiario (6-oct), Telemadrid (nov-2026), DatosClaros"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "vox-impuestos-01",
+      "tema": "impuestos",
+      "resumen": "Propone un mínimo exento de 22.000 euros, un tipo del 15 % hasta 70.000 euros y del 25 % a partir de esa cifra, con cuatro puntos menos por hijo.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "El Debate («Las diez propuestas clave de Vox», 24-oct-2026), Demócrata (27-oct), voxespana.es (11-oct), Mundiario (6-oct), Telemadrid (nov-2026), DatosClaros"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "vox-impuestos-02",
+      "tema": "impuestos",
+      "resumen": "Propone un IVA reducido del 8 % y un IVA general del 18 %.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "El Debate («Las diez propuestas clave de Vox», 24-oct-2026), Demócrata (27-oct), voxespana.es (11-oct), Mundiario (6-oct), Telemadrid (nov-2026), DatosClaros"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "vox-economia-empleo-01",
+      "tema": "economia-empleo",
+      "resumen": "Propone eliminar la cuota de autónomos para quienes ganen menos que el salario mínimo.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "El Debate («Las diez propuestas clave de Vox», 24-oct-2026), Demócrata (27-oct), voxespana.es (11-oct), Mundiario (6-oct), Telemadrid (nov-2026), DatosClaros"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "vox-economia-empleo-02",
+      "tema": "economia-empleo",
+      "resumen": "Plantea eliminar normas y trabas burocráticas, con foco en agricultura, industria, educación y energía.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "El Debate («Las diez propuestas clave de Vox», 24-oct-2026), Demócrata (27-oct), voxespana.es (11-oct), Mundiario (6-oct), Telemadrid (nov-2026), DatosClaros"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "vox-otros-01",
+      "tema": "otros",
+      "resumen": "Propone suprimir gasto político: auditar los gastos no imprescindibles, acabar con las subvenciones a partidos, sindicatos y patronales y reducir altos cargos.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "El Debate («Las diez propuestas clave de Vox», 24-oct-2026), Demócrata (27-oct), voxespana.es (11-oct), Mundiario (6-oct), Telemadrid (nov-2026), DatosClaros"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "vox-vivienda-01",
+      "tema": "vivienda",
+      "resumen": "Propone ampliar el suelo urbanizable, permitir más altura y densidad, levantar bloques de vivienda social y reducir trabas a la construcción.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "El Debate («Las diez propuestas clave de Vox», 24-oct-2026), Demócrata (27-oct), voxespana.es (11-oct), Mundiario (6-oct), Telemadrid (nov-2026), DatosClaros"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "vox-vivienda-02",
+      "tema": "vivienda",
+      "resumen": "Propone derogar las medidas intervencionistas en el mercado de alquiler. Abascal señala al Estado como principal «fondo buitre».",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "El Debate («Las diez propuestas clave de Vox», 24-oct-2026), Demócrata (27-oct), voxespana.es (11-oct), Mundiario (6-oct), Telemadrid (nov-2026), DatosClaros"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "vox-pensiones-01",
+      "tema": "pensiones",
+      "resumen": "Propone garantizar las pensiones «como sea» y capitalizar un fondo de pensiones público con criterios de rentabilidad privada.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "El Debate («Las diez propuestas clave de Vox», 24-oct-2026), Demócrata (27-oct), voxespana.es (11-oct), Mundiario (6-oct), Telemadrid (nov-2026), DatosClaros"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "vox-sanidad-01",
+      "tema": "sanidad",
+      "resumen": "Propone centralizar la sanidad mediante un plan nacional sanitario.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "El Debate («Las diez propuestas clave de Vox», 24-oct-2026), Demócrata (27-oct), voxespana.es (11-oct), Mundiario (6-oct), Telemadrid (nov-2026), DatosClaros"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "vox-educacion-01",
+      "tema": "educacion",
+      "resumen": "Propone centralizar la educación mediante una ley nacional educativa.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "El Debate («Las diez propuestas clave de Vox», 24-oct-2026), Demócrata (27-oct), voxespana.es (11-oct), Mundiario (6-oct), Telemadrid (nov-2026), DatosClaros"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "vox-energia-clima-01",
+      "tema": "energia-clima",
+      "resumen": "Propone mantener las centrales nucleares, un plan nacional de soberanía energética y derogar la normativa derivada del Pacto Verde Europeo. También plantea un Plan Nacional del Agua.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "El Debate («Las diez propuestas clave de Vox», 24-oct-2026), Demócrata (27-oct), voxespana.es (11-oct), Mundiario (6-oct), Telemadrid (nov-2026), DatosClaros"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    },
+    {
+      "id": "vox-otros-02",
+      "tema": "otros",
+      "resumen": "Propone fomentar la natalidad con incentivos fiscales.",
+      "fuente": {
+        "url": "https://github.com/scriptsalmorejo/candidatos-elecciones/blob/claude/modest-hawking-c3nmn6/fuentes/recopilacion_Vox_FrenteAmplio_2026-11-11.pdf",
+        "titulo": "Recopilación de propuestas de Vox y Frente Amplio (11-nov-2026)",
+        "tipo": "medio",
+        "origen": "El Debate («Las diez propuestas clave de Vox», 24-oct-2026), Demócrata (27-oct), voxespana.es (11-oct), Mundiario (6-oct), Telemadrid (nov-2026), DatosClaros"
+      },
+      "fechaConsulta": "2026-11-11",
+      "verificacion": "sin_verificar"
+    }
+  ]
 }
